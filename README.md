@@ -32,7 +32,15 @@ You can find a full list of what YOLO trained on the COCO dataset can detect <a 
 - `python yolo.py --image images/baggage_claim.jpg`
 
 ## Screenshots
+![Image](/Object%20dection%20using%20image/1.png)
 
+### Here you can see that YOLO has not only detected each person in the input image, but also the suitcases as well!
+
+Furthermore, if you take a look at the right corner of the image you’ll see that YOLO has also detected the handbag on the lady’s shoulder.
+
+<img src="https://github.com/yash42828/YOLO-object-detection-with-OpenCV/blob/master/Object%20dection%20using%20image/2.png">
+
+YOLO is able to correctly detect each of the players on the pitch, including the soccer ball itself. Notice the person in the background who is detected despite the area being highly blurred and partially obscured.
 
 ## YOLO object detection in video streams
 
