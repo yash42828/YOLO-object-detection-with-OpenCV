@@ -50,6 +50,7 @@ blob = cv2.dnn.blobFromImage(image, 1 / 255.0, (416, 416),
 net.setInput(blob)
 start = time.time()
 layerOutputs = net.forward(ln)
+# [,frame,no of detections,[classid,class score,conf,x,y,h,w]
 end = time.time()
 
 # show timing information on YOLO
